@@ -15,6 +15,19 @@ namespace HackHackHack
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.Hide();
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Show();
         }
     }
 }
